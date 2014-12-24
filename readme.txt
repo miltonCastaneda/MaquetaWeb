@@ -1,1 +1,1 @@
-Maquetacion de un sitio web en el que pretendo crear un sitio igual al de un template localizado en 
+Maquetacion de un sitio web en el que se pretende ademas de su maquetacion hacer un diseño adaptable para moviles, la plantilla original se encuentra en http://demo.templateworld.com/zero/in_action/dusky/
