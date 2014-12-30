@@ -1,121 +1,67 @@
-
-a
-{
-	color: #22BCE0;
-	text-decoration: none;
-}
-body
-{
-	background: #EEEEEE;
-	font-family: Arial;
+/*pendiende agregar fuentes*/
+body{
 	font-size: 16px;
+	background-color: #00ac69;
 }
 header{
-	background-color: #9F2C2C;
-	overflow: hidden;
-	padding: 1em;
+	background: url(../imagenes/headBg.jpg) no-repeat;
+	
 }
-header figure{
-	float: left;
-}
-header #autor img{
-	border-radius: 55%;
-	background-color: #ccc;
-	height: 6em;
-	width: 6em;
-}
-header h1{
-	color: white;
-	font-weight: normal;
-	font-size: 1.2em;
-}
-h2{
-	margin: 0;
-	padding: 0;
-}
-
-nav{
-	background-color: #9F2C2C;	
-}
-nav ul{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-nav ul li{
-	display: inline;
-}
-nav ul li a{
-	color: white;
-	font-size: 0.7em;
-	padding: 0.7em;
-}
-nav ul li a:hover{
-	background-color: #D73939;
-	transition-duration: 300ms;
-}
-section{
-	display: block;
-	overflow: hidden;
-}
-
-section article{
-	min-height: 36em;	
-	overflow: hidden;
-}
-section article h2{
-	margin: 7em 0 0 0;
+.navBar-disorderly{
 	text-align: center;
-	width: 100%;
 }
-section article figure.portafolio{
-	background-color: red;
-	float: left;
-}
-section article figure.portafolio img{
-	width: 15em;
-	min-width: 15em;
-}
-section div.enlace{
-	width: 100%;
-	text-align: center;
-	padding: 2em;
 
-}
-section div.enlace a{
-	font-size: 2em;
-	width: 100%;
-	padding: 2em;
-}
-#containerFixed{
-
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-#contactame article form input, textarea{
-	border-radius: .3em;
-	display: block;
-	margin: .3em 2em 0 2em;
-	padding: .3em;
-}
-#contactame article form label{
-	margin: 2em 2em 2em 2em;
-}
-#contactame article form input.boton{
-	background-color: rgb(184, 76, 76);
-	color: white;
-	margin: 2em 2em 0 2em;
+.header-title{
 	display: inline-block;
-	padding: .4em;
-
-	box-shadow: rgba(219, 101, 39,0.5) 2px 2px 2px;
-}
-#home{
-
-	background-image: url(../imagenes/fondo.jpg);
 	color: white;
+	font-size: 2.8em;
+	margin-left: 4em;
 }
+.header-title span{
+	color: black;
+	font-size: .2em;
+	position: relative;
+	bottom: 1em;
+	left: -1.5em;
+}
+.header-description{
+	color: #1D7A88;
+	font-weight: bold;
+	font-size: 1.2em;
+	display: inline-block;
+	margin-left: 20em;
+	position: relative;
+	top: 2.3em;	
+}
+
+.header-description em{
+	display: block;
+	color: black;
+	font-size: .5em
+}
+
+.navBar {
+	margin-top: 11em;
+	padding-bottom: .3em;
+}
+
+.navBar ul li{
+	display: inline;
+	padding-right: .6em;
+	background: url(../imagenes/menuspace.jpg) no-repeat right bottom;
+}
+.navBar ul li a{
+	color: #e5df85;
+	font-size: .8em;
+	padding: .5em;
+	text-decoration: none;
+	
+}
+.navBar ul li a:hover{
+	color: white;
+	background: url(../imagenes/menuHover.jpg) no-repeat center bottom;
+}
+
 
 
 
